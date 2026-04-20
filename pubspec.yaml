@@ -1,0 +1,43 @@
+name: devpad_pro
+description: "DevPad Pro v2 — Professional Mobile Code Editor"
+publish_to: 'none'
+version: 2.0.1+2
+
+environment:
+  sdk: '>=3.0.0 <4.0.0'
+  flutter: '>=3.10.0'
+
+dependencies:
+  flutter:
+    sdk: flutter
+
+  # State management
+  provider: ^6.1.1
+
+  # File picking from device storage
+  file_picker: ^6.1.1
+
+  # WebView for HTML/CSS/JS live preview
+  webview_flutter: ^4.4.2
+
+  # Settings & project persistence
+  shared_preferences: ^2.2.2
+
+  # Path utilities
+  path_provider: ^2.1.1
+  path: ^1.9.0
+
+  # Syntax highlighting
+  flutter_highlight: ^0.7.0
+  highlight: ^0.7.0
+
+  # Icons
+  cupertino_icons: ^1.0.6
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^3.0.0
+
+flutter:
+  uses-material-design: true
